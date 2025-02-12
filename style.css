@@ -1,0 +1,41 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Media Query for small devices */
+@media (max-width: 600px) {
+    body {
+        background-color: #ffcccb;
+    }
+    h1 {
+        color: #ff0000;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Media Query for large devices */
+@media (min-width: 1200px) {
+    body {
+        background-color: #d1f7c4;
+    }
+    h1 {
+        color: #007b00;
+    }
+    p {
+        font-size: 20px;
+    }
+}
